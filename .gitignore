@@ -1,3 +1,4 @@
-Account Application.iml
+com.accountapp.Account Application.iml
 .idea
 target
+sonar-project.properties
