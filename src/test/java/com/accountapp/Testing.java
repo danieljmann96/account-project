@@ -4,7 +4,7 @@ import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 
-public class testing {
+public class Testing {
     @Test
     public void testNumberOfNames(){
         Service testService = new Service();
