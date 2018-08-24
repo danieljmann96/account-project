@@ -2,3 +2,4 @@ com.accountapp.Account Application.iml
 .idea
 target
 sonar-project.properties
+.scannerwork

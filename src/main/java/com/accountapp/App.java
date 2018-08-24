@@ -12,6 +12,8 @@ public class App {
         studentService.createAccount(2,marcus);
         Account seb = new Account("Sebastien", "Delaney", "4780247bfrehj");
         studentService.createAccount(3,seb);
+        Account daniel2 = new Account("Daniel", "Sturridge", "AF87480");
+        studentService.createAccount(4,daniel2);
         System.out.println(studentService.getAccount(1).toString());
         String jsonString = JsonConverter.fromMap(studentService.getStudents());
         System.out.println(jsonString);
