@@ -16,6 +16,7 @@ public class testing {
         testService.createAccount(3,seb);
         Account daniel2 = new Account("Daniel", "Sturridge", "AF87480");
         testService.createAccount(4,daniel2);
-        assertEquals(testService.countNames(), 3);
+        assertEquals(testService.countNames("Daniel"), 3);
+        assertEquals(testService.countNames("Anthony"),1);
     }
 }

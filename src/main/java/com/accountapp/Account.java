@@ -4,7 +4,9 @@ public class Account {
     private String firstName;
     private String lastName;
     private String accountNumber;
-
+    public String getFirstName() {
+        return firstName;
+    }
     public Account(String firstName, String lastName, String accountNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
